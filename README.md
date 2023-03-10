@@ -63,27 +63,3 @@ s2,78,82,88
 s1,10,54,98
 s3,NaN,NaN,NaN
 ```
-
-## Notes
-
-- Single daily report file can be very large, and can exceed program memory
-- You can use any Open Source library
-- Program should only use memory for its internal state (no disk, no database)
-- Sensible tests are welcome
-
-Solution :-
-
-Technology Used : Scala , Apache Spark , Sbt built tool, ScalaTest
-
-                                                                                                                                                                                                                                                                                                                                                                                                   Step 1-Created the SenSorStatic Trait
-
-                                                                                                                                                                                                                                                                                                                                                                                                   Step 2-Implemented the SenSorStatic Trait in SensorStaticSparkImpl Class(implementation class)
-
-                                                                                                                                                                                                                                                                                                                                                                                                   Step 3-Creates case class and Object with main method
-
-                                                                                                                                                                                                                                                                                                                                                                                                   How to run the application?
-
-                                                                                                                                                                                                                                                                                                                                                                                                   -> Run the main method in SensorStatistics object
-
-                                                                                                                                                                                                                                                                                                                                                                                                   Note :- You can change the directory path as per you
-                                                                                                                                                                                                                                                                                                                                                                                                           or Uncomment the line 8 (var dir= args(0) ) and comment the line no 9 if you are passing the directory path from console.
